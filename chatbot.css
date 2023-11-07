@@ -1,0 +1,23 @@
+/* CSS styling for the chat interface */
+.chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid hsl(199, 42%, 65%);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.chat-box {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
